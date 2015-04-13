@@ -11,13 +11,13 @@ class NewVisitorTest(unittest.TestCase):
     self.browser.quit()
 
   def test_can_start_a_list_and_retrieve_it_later(self):
-    # John's fucking stupid, and can't remember anything.
+    # John"s fucking stupid, and can"t remember anything.
     # He goes online to find a to-do app.
-    self.browser.get('http://localhost:8000')
+    self.browser.get("http://localhost:8000")
 
     # He looks for "To-Do" in the title, otherwise how would he know what the site is?
-    self.assertIn('To-Do', self.browser.title)
-    self.fail('Finish the test!')
+    self.assertIn("To-Do", self.browser.title)
+    self.fail("Finish the test!")
 
     # The site tells him to enter a thing, he does.
 
@@ -38,4 +38,4 @@ class NewVisitorTest(unittest.TestCase):
 
 if __name__ == "__main__":
   # If executed from command line
-  unittest.main(warnings='ignore')
+  unittest.main(warnings="ignore")
