@@ -11,7 +11,7 @@ class NewVisitorTest(unittest.TestCase):
     self.browser.quit()
 
   def test_can_start_a_list_and_retrieve_it_later(self):
-    # John"s fucking stupid, and can"t remember anything.
+    # John"s a little stupid, and can"t remember anything.
     # He goes online to find a to-do app.
     self.browser.get("http://localhost:8000")
 
